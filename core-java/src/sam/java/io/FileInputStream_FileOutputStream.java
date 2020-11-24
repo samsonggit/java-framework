@@ -8,7 +8,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 
-
+/*
+ * FileInputStream、FileOutputStream（字节流）
+字节流的方式效率较低，不建议使用
+ */
 public class FileInputStream_FileOutputStream {
 	public static void main(String[] args) throws IOException {
 		File file = new File("D:/test.txt");

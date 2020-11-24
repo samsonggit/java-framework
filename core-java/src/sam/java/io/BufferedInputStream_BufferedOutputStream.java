@@ -7,6 +7,11 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/*
+ * BufferedInputStream、BufferedOutputStream（缓冲字节流）
+
+缓冲字节流是为高效率而设计的，真正的读写操作还是靠FileOutputStream和FileInputStream，所以其构造方法入参是这两个类的对象也就不奇怪了。
+ */
 public class BufferedInputStream_BufferedOutputStream {
 
 	public static void write(File file) throws IOException {
